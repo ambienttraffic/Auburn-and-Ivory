@@ -1,0 +1,166 @@
+/* @override http://www.auburnandivory.com/styles.css */
+
+/* @group General Styles */
+body {
+	background: #672c23 url(/images/background_pattern.jpg) top left repeat;
+	color: #dcccb9;
+	font-family: "ff-enzo-web-1","ff-enzo-web-2", sans-serif;
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #b32d13;
+	text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+p {
+	margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "ff-enzo-web-1","ff-enzo-web-2", sans-serif;
+	font-weight: 300;
+	
+	padding-bottom:12px;
+	color: #ba2a12;
+}
+h1 {font-size: 40px;}
+h2 {font-size: 32px;margin: 10px 0 20px 0;}
+h3 {font-size: 26px;margin: 15px 0 0 0;}
+h4 {font-size: 22px;}
+h5 {font-size: 18px;}
+h6 {font-size: 15px;}
+
+#container {
+	margin: 0;
+	padding:  0;
+	background: transparent url(/images/header_shadow.png) top left repeat-x;
+}
+#content {
+	font-size: 22px;
+	line-height: 30px;
+}
+#footer a {
+	color: #b74b2f;
+	font-size: 16px;
+}
+#footer a:hover {
+	color: #dcccb9;
+	text-decoration: none;
+	background-color: rgba(179,45,19,0.4);
+	padding:  0 5px;
+}
+
+
+/* @group Navigation */
+ul#navigation {
+	margin:  0 auto;
+	text-align:  center;
+	padding:  20px 0;
+}
+ul#navigation li{
+	display: inline;
+	color: #dcccb9;
+	padding:  20px;
+	font-family: "ff-enzo-web-1","ff-enzo-web-2", sans-serif;
+	font-size: 26px;
+	font-weight:  100;
+}
+
+ul#navigation li a{
+	color: #dcccb9;
+}
+ul#navigation li a:hover {
+	color: #b74b2f; text-decoration: none;;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Layout */
+
+#header {
+	width: 960px;
+	margin: 0 auto;
+}
+#content .wrapper {
+	margin: 10px auto;
+	width: 560px;
+	padding: 30px 200px 60px 200px;
+
+}
+#content ul{
+	padding: 15px;
+}
+#content li {
+	list-style-type: disc;
+	margin-left: 20px;
+	margin-bottom:  5px;
+}
+#footer {
+	width:  960px;
+	margin: 0 auto;
+	text-align: center;
+	padding:  20px;
+}
+
+/* @end */
+
+
+
+
+/* @group Header */
+#header {
+	padding-top:  50px;	
+}
+#header h1 a, #logo a{
+	font-family: Helvetica, Arial, sans-serif;
+	display: block;
+	overflow: hidden;
+	height:  0;
+	padding-top: 85px;
+	width:  510px;
+	margin:  0 auto;
+	background: transparent url(/images/logo.png) top left no-repeat;
+}
+#logo a{
+	background: transparent url(/images/logo_small.png) top left no-repeat;
+	padding-top: 72px;
+	width:  405px;
+}
+/* @end */
+
+/* @group Main Content Area */
+#content {
+	background-color: rgba(40,11,1,0.6);
+}
+
+#content a {
+	color: #dcccb9;
+	background-color: rgba(179,45,19,0.4);
+	padding:  0 5px;
+	text-decoration: none;
+}
+#content a:hover {background-color: rgba(179,45,19,0.7);}
+
+/* @end */
+
+/* @group Home Styles */
+#mainindex .wrapper {
+	font-size:  50px;
+	font-family: "ff-enzo-web-1","ff-enzo-web-2", sans-serif;
+	line-height: 55px;
+}
+#mainindex .wrapper a:hover {
+	color: #dcccb9;
+	text-decoration: none;
+}
+#mainindex .wrapper p {
+	margin-bottom: 20px
+}
+
+/* @end */
+
+
