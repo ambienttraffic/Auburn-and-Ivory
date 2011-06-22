@@ -1,6 +1,8 @@
 /* @override http://www.auburnandivory.com/styles.css */
 
 /* @group General Styles */
+
+
 body {
 	background: #672c23 url(/images/background_pattern.jpg) top left repeat;
 	color: #dcccb9;
@@ -106,6 +108,8 @@ ul#navigation li a:hover {
 	padding:  20px;
 }
 
+
+
 /* @end */
 
 
@@ -141,7 +145,7 @@ ul#navigation li a:hover {
 	color: #dcccb9;
 	background-color: rgba(179,45,19,0.4);
 	padding:  0 5px;
-	text-decoration: none;
+	text-decoration: none; 
 }
 #content a:hover {background-color: rgba(179,45,19,0.7);}
 
@@ -163,4 +167,44 @@ ul#navigation li a:hover {
 
 /* @end */
 
+/* @group Case Studies */
+.thumb-row {clear: both;}
+.box {	margin-right:  25px;
+	clear: none;
+	width: 253px;
+	float: left;}
+	
+.box .photo {
+	padding: 10px;
+	border-bottom: 0;
+	position:  relative;
+}
+#content .box .photo a{display: block;line-height: 0;padding: 0;}
 
+#content .box .photo h4 a{margin: 0;padding: 5px 10px;display: block;font-size: 0.85em;line-height: 1.25em;}
+#content .box .photo h4 a{margin: 0;}
+
+body#index nav {margin-right: 10px;display: block;}
+
+.cleardiv {clear: both;}
+
+/* @end */
+
+/* @group Pages */
+body#pagearchive .wrapper p a img.mt-image-center {margin: 0 auto 0 auto !important;}
+body#pagearchive #content a {
+	background: transparent;
+	padding: 0;
+	color: #e45421;
+
+}
+body#pagearchive #content a:hover {text-decoration: underline;}
+
+#content nav {width: 560px;margin: 0 auto;text-align: right;padding-bottom: 20px;}
+#content nav a {display: block;}
+#content nav a.previous {float: left;}
+
+/* case studies index */
+body#index nav {text-align: center;margin-top: 40px;}
+body#index nav a {display: block;width: 28%;float: left;margin-right: 20px;}
+/* @end */

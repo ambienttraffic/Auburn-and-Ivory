@@ -1,0 +1,38 @@
+<mt:var name="templatetype" value="index">
+<mt:include module="Header">
+		<div id="content">
+			<div class="wrapper">
+			<h2>Case Studies</h2>
+				<mt:setvar name="rowcounter" value="1">
+				<mt:pages folder="Case Studies">
+				<mt:if name="rowcounter" eq="1">
+				<div class="thumb-row">
+				</mt:if>
+				<mt:setvar name="rowcounter" op="++">
+				<div class="box thumb<mt:if name="rowcounter" eq="3"> last</mt:if>">
+				<div class="photo">
+				<mt:assetcontainer placement="1">
+				<a href="<mt:pagepermalink>"><img src="<mt:assetthumbnailurl width="233">" alt="<mt:pagetitle remove_html="1">" alt="<mt:pagetitle remove_html="1">"  /></a>
+				<div class="description">
+				<h4><a href="<mt:pagepermalink>"><mt:pagetitle></a></h4>
+				</div>
+				</mt:assetcontainer>
+
+				</div>
+				</div>
+				<mt:if name="rowcounter" eq="3">
+				<div class="cleardiv"></div>
+				</div>
+				<mt:setvar name="rowcounter" value="1">
+				<mt:else name="__last__">
+				<div class="cleardiv"></div>
+				</div>
+				</mt:if>
+
+				</mt:pages>
+			
+			<nav><a href="<mt:blogurl>philosophy.html">Philosophy</a><a href="<mt:blogurl>capabilities.html">Capabilities</a><a href="<mt:blogurl>company_history.html">Company History</a></nav>
+
+			</div>
+		</div>
+<mt:include module="Footer">

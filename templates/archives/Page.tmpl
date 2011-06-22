@@ -1,0 +1,15 @@
+<mt:var name="templatetype" value="pagearchive">
+<mt:include module="Header">
+		<div id="content">
+			<div class="wrapper">
+<mt:setvarblock name="currentFolder"><mt:PageFolder><$mt:FolderLabel$></mt:PageFolder></mt:setvarblock>
+<mt:if name="currentFolder" eq="Case Studies">
+<h4><mt:PageFolder><a href="/case_studies"><$mt:FolderLabel$></a></mt:PageFolder></h4>
+</mt:if>
+<h2><mt:PageTitle></h2>
+<mt:pagebody>
+
+			</div>
+<mt:ignore><mt:pagefolder><mt:if tag="folderlabel" like="Services|Case Studies"><mt:unless tag="pagetitle" like="Services|Case Studies"><nav><mt:include module="Previous Next Links"></nav></mt:unless></mt:if></mt:pagefolder></mt:ignore>
+		</div>
+<mt:include module="Footer">
